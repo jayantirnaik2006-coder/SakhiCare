@@ -1,8 +1,8 @@
-# 🌸 SakhiCare AI — Women's Health Companion
+# 🌸 SakhiCare  — Women's Health Companion
 
 **Your health. Your voice.**
 
-SakhiCare AI is a women's health education prototype designed to help women better understand common symptoms, learn about PCOS (Polycystic Ovary Syndrome), and track their menstrual cycles.
+SakhiCare  is a women's health education prototype designed to help women better understand common symptoms, learn about PCOS (Polycystic Ovary Syndrome), and track their menstrual cycles.
 
 The platform aims to provide a supportive, accessible experience with multilingual content in English, Kannada, and Hindi.
 
@@ -10,7 +10,7 @@ The platform aims to provide a supportive, accessible experience with multilingu
 
 Many women face difficulties accessing understandable health information, identifying when symptoms need medical attention, and discussing menstrual health concerns.
 
-SakhiCare AI aims to make basic women's health education more approachable through a simple, user-friendly web application.
+SakhiCare  aims to make basic women's health education more approachable through a simple, user-friendly web application.
 
 ## ✨ Key Features
 
