@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SakhiCare  | Women's Health Companion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="?page=home" class="brand">
+      <span class="logo">✿</span>
+      <span>SakhiCare <small></small></span>
+    </a>
+
+    <details class="page-menu">
+    <summary data-navigation-copy="explore">Explore features</summary>
+    <nav class="page-menu-links" aria-label="Feature pages">
+      <a href="?page=home" data-page-link="home" data-navigation-copy="home">Home</a>
+      <a href="?page=dashboard" data-page-link="dashboard" data-navigation-copy="dashboard">My dashboard</a>
+      <a href="?page=profile" data-page-link="profile" data-navigation-copy="profile">My profile</a>
+      <a href="?page=symptoms" data-page-link="symptoms" data-navigation-copy="symptoms">Symptom checker</a>
+      <a href="?page=journal" data-page-link="journal" data-navigation-copy="journal">Symptom journal</a>
+      <a href="?page=cycle" data-page-link="cycle" data-navigation-copy="cycle">Cycle tracker & reminders</a>
+      <a href="?page=pcos" data-page-link="pcos" data-navigation-copy="pcos">PCOS guide</a>
+      <a href="?page=care" data-page-link="care" data-navigation-copy="care">Care guidance</a>
+      <a href="?page=library" data-page-link="library" data-navigation-copy="library">Health library</a>
+      <a href="?page=tips" data-page-link="tips" data-navigation-copy="tips">Women’s health tips</a>
+      <a href="?page=hospital" data-page-link="hospital" data-navigation-copy="hospital">Nearby hospitals</a>
+      <a href="?page=emergency" data-page-link="emergency" data-navigation-copy="emergency">Emergency help</a>
+      <a href="?page=privacy" data-page-link="privacy" data-navigation-copy="privacy">Privacy controls</a>
+      <a href="?page=account" data-page-link="account" data-navigation-copy="account">Account & data transfer</a>
+    </nav>
+    </details>
+
+    <select id="language" aria-label="Choose language">
+      <option value="en">English</option>
+      <option value="kn">ಕನ್ನಡ</option>
+      <option value="hi">हिन्दी</option>
+    </select>
+  </header>
+
+  <main>
+    <section class="hero" data-page-feature="home">
+      <div class="hero-text">
+        <span class="eyebrow" id="eyebrow">YOUR PERSONAL HEALTH COMPANION</span>
+        <h1 id="heroTitle">Your health.<br><span>Your voice.</span></h1>
+        <p id="heroDesc">
+          A safe, supportive space to understand symptoms,
+          learn about PCOS, and track your cycle.
+        </p>
+        <a href="?page=symptoms" class="primary-btn" id="heroButton">
+          Explore your health →
+        </a>
+        <p class="trust" id="trustText">♡ Private by design · No judgement · Always supportive</p>
+      </div>
+
+      <div class="hero-art">
+        <div class="art-circle">
+          <div class="flower">✿</div>
+          <div class="art-caption">
+            <span>♡</span>
+            <div>
+              <strong id="artStrong">You matter.</strong>
+              <small id="artSmall">Every day, every cycle.</small>
+            </div>
+          </div>
+        </div>
+        <div class="floating-note note-one" id="noteOne">🌷 Self-care first</div>
+        <div class="floating-note note-two" id="noteTwo">✨ You are not alone</div>
+      </div>
+    </section>
+
+    <section class="notice" data-page-feature="home">
+      <span>🛡️</span>
+      <p id="noticeText">
+        SakhiCare provides educational guidance, not a diagnosis.
+        Your symptoms deserve care and attention.
+      </p>
+    </section>
+
+    <section class="section page-directory" data-page-feature="home">
+      <div class="section-heading">
+        <span class="eyebrow" data-navigation-copy="directoryEyebrow">YOUR HEALTH, YOUR WAY</span>
+        <h2 data-navigation-copy="directoryTitle">Explore SakhiCare</h2>
+        <p data-navigation-copy="directoryDescription">Choose a feature to open it on its own page.</p>
+      </div>
+      <nav class="directory-grid" aria-label="SakhiCare feature pages">
+        <a class="directory-card" href="?page=symptoms"><span>💬</span><h3 data-navigation-copy="symptoms">Symptom checker</h3></a>
+        <a class="directory-card" href="?page=journal"><span>📔</span><h3 data-navigation-copy="journal">Symptom journal</h3></a>
+        <a class="directory-card" href="?page=cycle"><span>🌙</span><h3 data-navigation-copy="cycle">Cycle tracker & reminders</h3></a>
+        <a class="directory-card" href="?page=pcos"><span>🌸</span><h3 data-navigation-copy="pcos">PCOS guide</h3></a>
+        <a class="directory-card" href="?page=care"><span>💗</span><h3 data-navigation-copy="care">Care guidance</h3></a>
+        <a class="directory-card" href="?page=library"><span>📚</span><h3 data-navigation-copy="library">Health library</h3></a>
+        <a class="directory-card" href="?page=tips"><span>✨</span><h3 data-navigation-copy="tips">Women’s health tips</h3></a>
+        <a class="directory-card" href="?page=hospital"><span>📍</span><h3 data-navigation-copy="hospital">Nearby hospitals</h3></a>
+        <a class="directory-card" href="?page=emergency"><span>🚨</span><h3 data-navigation-copy="emergency">Emergency help</h3></a>
+        <a class="directory-card" href="?page=privacy"><span>🔒</span><h3 data-navigation-copy="privacy">Privacy controls</h3></a>
+        <a class="directory-card" href="?page=account"><span>👤</span><h3 data-navigation-copy="account">Account & data transfer</h3></a>
+        <a class="directory-card" href="?page=dashboard"><span>📊</span><h3 data-navigation-copy="dashboard">My dashboard</h3></a>
+        <a class="directory-card" href="?page=profile"><span>🌷</span><h3 data-navigation-copy="profile">My profile</h3></a>
+      </nav>
+    </section>
+
+    <section class="section" id="userDashboard" data-page-container="dashboard">
+      <div class="section-heading">
+        <span class="eyebrow" id="dashboardEyebrow">YOUR PERSONAL SPACE</span>
+        <h2 id="dashboardTitle">Your health dashboard</h2>
+        <p id="dashboardGreeting" aria-live="polite"></p>
+      </div>
+      <div class="dashboard-grid">
+        <article class="dashboard-card">
+          <span class="dashboard-icon">📔</span>
+          <h3 id="dashboardJournalTitle">Journal entries</h3>
+          <p class="dashboard-value" id="dashboardJournalCount" aria-live="polite">0</p>
+          <a href="?page=journal" id="dashboardJournalLink">Open symptom journal →</a>
+        </article>
+        <article class="dashboard-card">
+          <span class="dashboard-icon">🌙</span>
+          <h3 id="dashboardCycleTitle">Cycle tracker</h3>
+          <p id="dashboardCycleSummary" aria-live="polite">No cycle details saved yet.</p>
+          <a href="?page=cycle" id="dashboardCycleLink">Open cycle tracker →</a>
+        </article>
+        <article class="dashboard-card">
+          <span class="dashboard-icon">🔔</span>
+          <h3 id="dashboardReminderTitle">Period reminder</h3>
+          <p id="dashboardReminderSummary" aria-live="polite">Reminders are off.</p>
+          <a href="?page=cycle" id="dashboardReminderLink">Manage reminders →</a>
+        </article>
+      </div>
+      <div class="dashboard-actions">
+        <a class="primary-btn" href="?page=profile" id="dashboardProfileLink">View my profile</a>
+        <a class="text-btn" href="?page=privacy" id="dashboardPrivacyLink">Manage my privacy →</a>
+      </div>
+      <p class="dashboard-privacy-note" id="dashboardPrivacyNote">Your dashboard summarizes records on this device. It does not diagnose health conditions.</p>
+    </section>
+
+    <section class="section privacy-section" id="userProfile" data-page-container="profile">
+      <div class="section-heading">
+        <span class="eyebrow" id="profileEyebrow">YOUR ACCOUNT PROFILE</span>
+        <h2 id="profileTitle">Your profile</h2>
+        <p id="profileDescription">Choose the name SakhiCare uses to greet you. No age or medical details are required.</p>
+      </div>
+      <div class="account-panel profile-panel">
+        <div id="profileSignedOut" class="profile-signed-out">
+          <p id="profileSignInPrompt">Sign in to your account to save a profile name that follows you across devices.</p>
+          <a class="primary-btn" href="?page=account" id="profileSignInLink">Go to account sign in</a>
+        </div>
+        <form id="profileForm" class="hidden">
+          <p class="muted-copy"><span id="profileEmailLabel">Account email:</span> <span id="profileAccountEmail"></span></p>
+          <label for="profileDisplayName" id="profileNameLabel">Display name</label>
+          <input type="text" id="profileDisplayName" maxlength="60" autocomplete="nickname" required>
+          <p class="muted-copy" id="profileNamePrivacy">This name is saved with your account. Health details are not included in your profile.</p>
+          <button class="primary-btn" id="saveProfileButton" type="submit">Save profile</button>
+          <p id="profileStatus" class="status-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section support-section" id="getCareNow" data-page-container="emergency hospital">
+      <div class="section-heading" data-page-feature="emergency hospital">
+        <span class="eyebrow" id="supportEyebrow">GET SUPPORT</span>
+        <h2 id="supportTitle">Need help nearby?</h2>
+        <p id="supportDesc">For an emergency, contact local emergency services now.</p>
+      </div>
+      <div class="support-grid">
+        <article class="support-card emergency-card" data-page-feature="emergency">
+          <div class="card-icon">🚨</div>
+          <h3 id="emergencyTitle">Emergency help</h3>
+          <p id="emergencyDesc">In India, call 112 for emergency assistance. If you are elsewhere, use your local emergency number.</p>
+          <a class="emergency-call" id="emergencyCall" href="tel:112">Call 112 (India)</a>
+          <p class="muted-copy" id="emergencyNote">Tap only if you want to place a phone call. SakhiCare cannot contact emergency services for you.</p>
+        </article>
+        <article class="support-card hospital-card" data-page-feature="hospital">
+          <div class="card-icon">📍</div>
+          <h3 id="hospitalTitle">Find a nearby hospital</h3>
+          <p id="hospitalDesc">Use your location or enter a city or area to prepare a hospital search in Google Maps.</p>
+          <button class="primary-btn" id="findHospitals" type="button">Use my location</button>
+          <label for="hospitalPlace" id="hospitalPlaceLabel">Or enter a city / area</label>
+          <input id="hospitalPlace" type="text" maxlength="100" autocomplete="address-level2">
+          <button class="text-btn" id="searchHospitals" type="button">Search this area</button>
+          <p id="hospitalPrivacy" class="muted-copy">SakhiCare does not store your location. Maps receives it only when you open the search link.</p>
+          <p id="hospitalStatus" class="status-message" aria-live="polite"></p>
+          <a id="hospitalMapLink" class="map-link hidden" href="#" target="_blank" rel="noopener noreferrer">Open nearby hospitals in Maps ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="symptoms" data-page-container="symptoms">
+      <div class="section-heading">
+        <span class="eyebrow" id="symptomEyebrow">LET'S TALK</span>
+        <h2 id="symptomTitle">How are you feeling today?</h2>
+        <p id="symptomDesc">Describe what you are experiencing in your own words.</p>
+      </div>
+
+      <div class="panel">
+        <label for="symptomInput" id="symptomLabel">
+          Tell us about your symptoms
+        </label>
+
+<div class="voice-row">
+  <button type="button" id="voiceButton" class="voice-btn">
+    🎙️ Speak your symptoms
+  </button>
+  <span id="voiceStatus" aria-live="polite">
+    Click the microphone to start speaking.
+  </span>
+</div>
+
+<textarea id="symptomInput"
+  placeholder="Example: My periods are irregular and I have acne..."
+  rows="5"></textarea>
+
+        <div class="input-footer">
+          <span id="privacyHint">🔒 Typed text is not saved by SakhiCare. Voice recognition may use your browser’s online service.</span>
+          <button class="primary-btn" id="analyzeButton">
+            Understand my symptoms →
+          </button>
+        </div>
+
+        <div id="result" class="result hidden" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section" id="journal" data-page-container="journal">
+      <div class="section-heading">
+        <span class="eyebrow" id="journalEyebrow">YOUR PERSONAL RECORD</span>
+        <h2 id="journalTitle">A little record can help you notice patterns.</h2>
+        <p id="journalDesc">Log how you feel. Your entries stay on this device.</p>
+      </div>
+
+      <div class="journal-layout">
+        <form class="panel journal-form" id="journalForm">
+          <h3 id="journalFormTitle">Add a daily entry</h3>
+          <label for="journalDate" id="journalDateLabel">Date</label>
+          <input type="date" id="journalDate" required>
+
+          <label for="journalFlow" id="journalFlowLabel">Period flow</label>
+          <select id="journalFlow">
+            <option value="none" id="flowNone">No period</option>
+            <option value="light" id="flowLight">Light</option>
+            <option value="moderate" id="flowModerate">Moderate</option>
+            <option value="heavy" id="flowHeavy">Heavy</option>
+          </select>
+
+          <label for="journalMood" id="journalMoodLabel">Mood</label>
+          <select id="journalMood">
+            <option value="calm" id="moodCalm">Calm</option>
+            <option value="low" id="moodLow">Low</option>
+            <option value="anxious" id="moodAnxious">Anxious</option>
+            <option value="irritable" id="moodIrritable">Irritable</option>
+            <option value="energetic" id="moodEnergetic">Energetic</option>
+          </select>
+
+          <fieldset class="symptom-options">
+            <legend id="journalSymptomsLabel">Symptoms (optional)</legend>
+            <label><input type="checkbox" name="journalSymptom" value="cramps"> <span id="journalCramp">Cramps</span></label>
+            <label><input type="checkbox" name="journalSymptom" value="headache"> <span id="journalHeadache">Headache</span></label>
+            <label><input type="checkbox" name="journalSymptom" value="fatigue"> <span id="journalFatigue">Fatigue</span></label>
+          </fieldset>
+
+          <label for="journalNote" id="journalNoteLabel">Notes (optional)</label>
+          <textarea id="journalNote" rows="3" maxlength="500"></textarea>
+          <button class="primary-btn full-btn" id="saveJournalEntry" type="submit">Save daily entry</button>
+          <p id="journalStatus" class="status-message" aria-live="polite"></p>
+        </form>
+
+        <div class="panel journal-history">
+          <div class="calendar-heading">
+            <h3 id="calendarTitle">Your calendar</h3>
+            <div class="calendar-controls">
+              <button class="text-btn" id="previousMonth" type="button" aria-label="Previous month">←</button>
+              <span id="calendarMonth" aria-live="polite"></span>
+              <button class="text-btn" id="nextMonth" type="button" aria-label="Next month">→</button>
+            </div>
+          </div>
+          <div id="journalCalendar" class="calendar-grid" role="grid" aria-label="Symptom journal calendar"></div>
+          <p class="calendar-legend" id="calendarLegend">● Journal entry　♥ Period day</p>
+
+          <div class="history-heading">
+            <h3 id="historyTitle">Journal entries</h3>
+            <button class="text-btn" id="printSummaryButton" type="button">Print selected visit summary</button>
+          </div>
+          <p id="summaryHint" class="muted-copy">Select entries to include in a summary for your healthcare visit.</p>
+          <div id="journalEntries" class="journal-entries" aria-live="polite"></div>
+          <p id="summaryStatus" class="status-message" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="learning" data-page-container="pcos cycle care">
+      <div class="section-heading" data-page-feature="pcos cycle care">
+        <span class="eyebrow" id="learnEyebrow">LEARN & UNDERSTAND</span>
+        <h2 id="learnTitle">Knowledge is self-care.</h2>
+        <p id="learnDesc">Small steps towards understanding your body.</p>
+      </div>
+
+      <div class="cards">
+        <article class="feature-card pcos-card" data-page-feature="pcos">
+          <div class="card-icon">🌸</div>
+          <span class="card-tag" id="pcosTag">01 · LEARN</span>
+          <h3 id="pcosTitle">Understanding PCOS</h3>
+          <p id="pcosDesc">
+            Learn about common symptoms, what PCOS means,
+            and when to talk to a healthcare professional.
+          </p>
+          <button class="text-btn" id="pcosButton">Explore PCOS ↗</button>
+          <div id="pcosInfo" class="info-box hidden"></div>
+        </article>
+
+        <article class="feature-card cycle-card" data-page-feature="cycle">
+          <div class="card-icon">🌙</div>
+          <span class="card-tag" id="cycleTag">02 · TRACK</span>
+          <h3 id="cycleTitle">Your cycle calendar</h3>
+          <p id="cycleDesc">
+            Record the first day of your last period and
+            keep a simple personal record.
+          </p>
+
+          <label for="periodDate" id="dateLabel">First day of last period</label>
+          <input type="date" id="periodDate">
+
+          <label for="cycleLength" id="lengthLabel">Usual cycle length (days)</label>
+          <input type="number" id="cycleLength" min="15" max="60" value="28">
+
+          <button class="primary-btn full-btn" id="saveCycle">Save cycle details</button>
+          <div id="cycleResult" class="info-box hidden" aria-live="polite"></div>
+          <div class="reminder-settings">
+            <h4 id="reminderTitle">Optional period reminder</h4>
+            <label for="reminderLead" id="reminderLeadLabel">Remind me</label>
+            <select id="reminderLead">
+              <option value="0" id="reminderSameDay">On the estimated date</option>
+              <option value="1" id="reminderOneDay">1 day before</option>
+              <option value="3" id="reminderThreeDays">3 days before</option>
+              <option value="7" id="reminderSevenDays">7 days before</option>
+            </select>
+            <button class="text-btn" id="toggleReminder" type="button">Turn reminders on</button>
+            <p id="reminderStatus" class="status-message" aria-live="polite"></p>
+            <p class="muted-copy" id="reminderLimit">Reminder checks work while this page is open. Browser notifications depend on permission and a supported secure connection.</p>
+          </div>
+        </article>
+
+        <article class="feature-card care-card" data-page-feature="care">
+          <div class="card-icon">💗</div>
+          <span class="card-tag" id="careTag">03 · TAKE CARE</span>
+          <h3 id="careTitle">When to seek help</h3>
+          <p id="careDesc">
+            Know which warning signs need prompt medical attention.
+            You deserve to be heard.
+          </p>
+          <button class="text-btn" id="careButton">View care guidance ↗</button>
+          <div id="careInfo" class="info-box hidden"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="healthLibrary" data-page-container="library">
+      <div class="section-heading">
+        <span class="eyebrow" id="libraryEyebrow">TRUSTED HEALTH INFORMATION</span>
+        <h2 id="libraryTitle">Explore the health library.</h2>
+        <p id="libraryDesc">Short, source-linked explainers. They are educational, not a diagnosis.</p>
+      </div>
+      <div class="library-cards" id="libraryCards"></div>
+      <p class="library-note" id="libraryReviewNote">Sources are linked on each guide. Content is not a substitute for a clinician's advice.</p>
+    </section>
+
+    <section class="section" id="healthTips" data-page-container="tips">
+      <div class="section-heading">
+        <span class="eyebrow" id="tipsEyebrow">A GENTLE REMINDER</span>
+        <h2 id="tipsTitle">Women’s health tips corner</h2>
+        <p id="tipsDesc">Small, practical ideas for learning about and caring for your health.</p>
+      </div>
+      <article class="tip-card" aria-live="polite" aria-atomic="true">
+        <span class="tip-category" id="tipCategory"></span>
+        <p id="tipText"></p>
+        <div class="tip-controls">
+          <button class="text-btn" id="previousTip" type="button">← Previous tip</button>
+          <span id="tipCounter"></span>
+          <button class="text-btn" id="nextTip" type="button">Next tip →</button>
+        </div>
+      </article>
+      <p class="library-note" id="tipsNote">General education only. Talk with a qualified healthcare professional about your own care.</p>
+    </section>
+
+    <section class="section privacy-section" id="privacy" data-page-container="privacy account">
+      <div class="section-heading" data-page-feature="privacy account">
+        <span class="eyebrow" id="privacyEyebrow">YOUR DATA, YOUR CHOICE</span>
+        <h2 id="privacyTitle">Manage your private data.</h2>
+        <p id="privacyDesc">Cycle, journal, and reminder settings are stored in this browser only.</p>
+      </div>
+      <form class="account-panel" id="accountForm" data-page-feature="account">
+        <h3 id="accountTitle">Optional private account</h3>
+        <p id="accountDesc">Sign in to securely save a copy of your health records to your SakhiCare account. You can still use this browser without an account.</p>
+        <div id="accountCredentials">
+          <label for="accountEmail" id="accountEmailLabel">Email</label>
+          <input type="email" id="accountEmail" autocomplete="email" maxlength="254" placeholder="you@example.com" required>
+          <label for="accountPassword" id="accountPasswordLabel">Password (at least 12 characters)</label>
+          <input type="password" id="accountPassword" autocomplete="current-password" minlength="12" maxlength="72" placeholder="Use at least 12 characters" required>
+        </div>
+        <div class="account-buttons">
+          <button class="primary-btn" id="loginAccount" type="submit">Sign in</button>
+          <button class="text-btn" id="registerAccount" type="button">Create account</button>
+          <button class="text-btn hidden" id="logoutAccount" type="button">Sign out</button>
+        </div>
+        <div id="accountSyncActions" class="account-sync-actions hidden">
+          <p id="accountSession" class="muted-copy"></p>
+          <button class="text-btn" id="uploadAccountData" type="button">Upload this device's data</button>
+          <button class="text-btn" id="downloadAccountData" type="button">Download account data to this device</button>
+        </div>
+        <p id="accountStatus" class="status-message" aria-live="polite"></p>
+      </form>
+      <div class="privacy-actions" data-page-feature="privacy">
+        <button class="text-btn" id="exportData" type="button">Export my data</button>
+        <button class="text-btn danger-btn" id="deleteData" type="button">Delete my data</button>
+        <p id="privacyStatus" class="status-message" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="closing" data-page-feature="home">
+      <span>✿</span>
+      <h2 id="closingTitle">Your body deserves understanding, not silence.</h2>
+      <p id="closingDesc">Take things one step at a time. Asking for help is strength.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>✿ SakhiCare </span>
+    <p id="footerText">
+      An educational hackathon prototype. Not a substitute for professional medical care.
+    </p>
+  </footer>
+
+  <section id="printSummary" class="print-summary" aria-label="Healthcare visit summary"></section>
+  <script src="navigation.js"></script>
+  <script src="symptom-checker.js"></script>
+  <script src="script.js"></script>
+  <script src="features.js"></script>
+</body>
+</html>
